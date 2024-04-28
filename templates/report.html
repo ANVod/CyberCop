@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Report a Crime</title>
+</head>
+<body>
+    <h1>Report a Digital Crime</h1>
+    <form method="post" action="/submit">
+        <label for="crime_type">Type of Crime:</label>
+        <input type="text" id="crime_type" name="crime_type"><br>
+        <label for="description">Description:</label>
+        <textarea id="description" name="description"></textarea><br>
+        <label for="date_time">Date and Time:</label>
+        <input type="text" id="date_time" name="date_time"><br>
+        <label for="evidence">Evidence (Optional):</label>
+        <input type="text" id="evidence" name="evidence"><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
