@@ -2,7 +2,7 @@ import telebot
 from datetime import datetime
 
 # Токен API к Telegram боту - замените 'YOUR_BOT_TOKEN' на ваш токен
-TOKEN = 'YOUR_BOT_TOKEN'
+TOKEN = '7068725252:AAGfgQq7Kq93ZTjG008SzP5fxRftztuzRHY'
 bot = telebot.TeleBot(TOKEN)
 
 # Функция приветствия
